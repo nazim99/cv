@@ -1,0 +1,356 @@
+
+@media only screen and (max-width: 1140px){
+	.wrapper{
+		padding: 0 15px;
+	}
+	.contact-form .row{
+		padding: 0 15px; 
+	}
+}
+
+@media only screen and (min-width: 1016px){
+	.btn-nav{
+		transform: translateX(0) !important;
+	}
+	.btn-close{
+		display: none !important;
+	}
+
+}
+@media only screen and (max-width: 1015px){
+
+	.manue-bar{
+		display: block;
+	}
+	.btn-close{
+		display: block;
+	}
+	.header-container{
+		position: relative;
+	}
+	.btn-nav{
+		transform: translateX(100%);
+		transition: 0.3s linear;
+		display: block;
+		text-align: right;
+		padding-top: 40px;
+		position: fixed;
+		top:0;
+		right:0;
+		background: #444444;
+		height: 100%;
+		width: 250px;
+		z-index: 50;
+	}
+	.nav-bar ul{
+		display: block;
+	}
+	
+	.nav-bar ul li:first-child{
+		margin-top: 20px; 
+	}
+	.nav-bar ul li a{
+		display: block;
+		font-size:15px;
+		padding: 15px 15px 15px 0;
+	}
+	
+	.section-hero{
+		padding: 0 0 100px;
+	}
+	.contact-form .row{
+		padding: 0 15px; 
+	}
+	/*.slider-sec .slick-arrow.slick-prev{
+		left: 460px;
+	}
+	.slider-sec .slick-arrow.slick-next {
+    	left: 511px;
+	}*/
+	.nav-bar ul li.main-manue .sub-manue-container{
+		height: 100px;
+    	width: 100%;
+    	padding: 15px 18px 0 15px;
+	}
+}
+
+@media only screen and (max-width: 860px){
+	.blog-container .row{
+		flex-direction: column;
+		gap:30px;
+	}
+	.blog-container .left-box{
+		width:100%;
+	}
+	.para-info-links {
+    	padding-top: 0px;
+	}
+	.contact-form{
+		padding: 0 15px;
+	}
+	.contact-left-box{
+		width:100%;
+	}
+	.contact-right-box{
+		width:100%;	
+	}
+}
+
+@media only screen and (max-width: 856px){
+	.card-container {
+    	flex-wrap: wrap;
+    	column-gap: 20px;
+    }
+    .card-container .item-cards:first-child{
+    	padding: 0;
+    }	
+    .item-cards {
+    	padding-top: 56px;
+	}
+	.card-container .card-body p{
+		max-width: 410px;
+	}
+	.program-container{
+		flex-wrap: flex;
+		flex-wrap: wrap;
+		text-align: center;
+	}
+	.left-box {
+    	width: 100%;
+	}
+	.program-content .link-info{
+		display: flex;
+		justify-content: flex-start;
+		width: 153px;
+	}
+	.program-img{
+		padding-top: 40px;
+	}
+	.gift-text::before{
+		left:0;
+		right:0;
+		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 700px){
+	.contact-text p {
+    	color: #fff;
+    	font-size: 18px;
+    	font-weight: 500;
+	}
+	.link-contact{
+		font-size: 16px;
+	    padding: 0 10px;
+	}
+	.slider-sec .slick-arrow{
+		bottom: -70px;
+	}	
+}
+@media only screen and (max-width: 610px){
+	.contact-us-container{
+		padding: 20px 20px;
+	}
+	.contact-flex-box{
+		display: block;
+	}
+	.contact-text{
+		padding-bottom: 15px;
+	}
+}
+@media only screen and (max-width: 600px){
+	.press-pics .connect-heading h2{
+        font-size: 55px;
+	}
+}
+@media only screen and (max-width: 550px){
+	.connect-link a{
+		display: block;
+	    margin: 22px auto 0;
+		width: 350px;
+	}
+	.content-container h1{
+		padding: 0px 0px;
+		font-size: 40px;
+	}
+	.connect-heading{
+	    max-width: 444px;
+	}
+}
+@media only screen and (max-width: 446px){
+	.press-pics .connect-heading h2{
+    	font-size: 48px;
+	}
+}
+@media only screen and (max-width: 436px){
+	.press-pics .connect-heading h2{
+	    font-size: 18px;
+	}	
+}
+@media only screen and (max-width: 427px){
+	/*.connect-link a{
+		width: 300px;
+	}*/
+	.ft-img::before{
+		width: 245px;
+	}
+}
+@media only screen and (max-width: 415px){
+	.about-banner .connect-heading h2{
+		/*padding: 50px 0px 18px;*/
+		margin-top: 60px;
+		font-size: 56px;
+	}
+}
+@media only screen and (max-width: 390px){
+	.connect-link a{
+		width: 300px;
+	}
+}
+@media only screen and (max-width: 370px){
+	.press-pics .connect-heading h2 {
+		    font-size: 50px;
+	}
+}
+@media only screen and (max-width: 337px){
+	.about-banner .connect-heading h2{
+		margin-top: 50px;
+		font-size: 48px;
+	}
+	.logo img{
+		width:100px;
+	}
+}
+
+@media only screen and (max-width: 297px){
+	.about-banner .connect-heading h2{
+		margin-top: 50px;
+		font-size: 35px;
+	}
+}
+@media only screen and (max-width: 427px){
+	.ft-img::before {
+    	width: 188px;
+	}
+}
+/*@media only screen and (max-width: 861px){
+	.contact-form .row{
+		flex-direction: row;
+	}
+	
+}*/
+@media only screen and (max-width: 639px){
+	.contact-form .row{
+		flex-direction:column;
+	}
+	.contact-left-box{
+    	width: 100%;
+	}
+	.contact-right-box{
+    	width: 100%;
+	}
+}
+@media only screen and (max-width: 439px){
+	.press-pics .connect-heading h2 {
+    	font-size: 45px;
+	}
+}
+/*@media only screen and (max-width: 445px){
+	.press-pics .connect-heading h2 {
+    	font-size: 25px;
+	}
+}*/
+@media only screen and (max-width: 290px){
+	.press-pics .connect-heading h2 {
+  	    font-size: 45px;
+	}
+}
+@media only screen and (max-width: 699px){
+	.search-box::after{
+		font-size: 28px;
+	}
+}
+@media only screen and (max-width: 425px){
+	.search-box::after{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 799px){
+	.team-memebers {
+    	flex-direction: column;
+    	gap:30px;
+    	width: 500px;
+    	margin: auto;
+	}
+}
+@media only screen and (max-width: 560px){
+	.team-memebers {
+    	width: 400px;
+	}
+}
+@media only screen and (max-width: 430px){
+	.team-memebers {
+    	width: 300px;
+	}
+}
+@media only screen and (max-width: 335px){
+	.team-memebers {
+    	width: 250px;
+	}
+}
+@media only screen and (max-width: 280px){
+	.team-memebers {
+    	width: 200px;
+	}
+}
+@media only screen and (max-width: 600px){
+	.search-container .row{
+		flex-wrap: wrap;
+	}
+	.search-container .search-box{
+		width: 50%;
+	}
+	
+}
+@media only screen and (max-width: 459px){
+	.search-container .search-box{
+		width: 100%;
+	}
+	
+}
+@media only screen and (max-width: 849px){
+	.flex-container{
+		flex-wrap: wrap;
+		text-align: center;
+	}
+	.brand-content-right p{
+		max-width: 100%;
+		padding-top:20px; 
+	}
+	
+}
+@media only screen and (max-width: 849px){
+	.we-do-section .connect-heading h2{
+	    font-size: 45px;
+	}
+}
+@media only screen and (max-width: 357px){
+	.we-do-section .connect-heading h2{
+	    font-size: 35px;
+	}
+}
+@media only screen and (max-width: 300px){
+	.we-do-section .connect-heading h2{
+	    font-size: 25px;
+	}
+}
+@media only screen and (max-width: 334px){
+	.press-pics .connect-heading h2{
+		font-size: 35px;
+	}
+}
+@media only screen and (max-width: 285px){
+	.press-pics .connect-heading h2{
+		font-size: 25px;
+	}
+}
